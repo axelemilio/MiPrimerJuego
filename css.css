@@ -26,9 +26,9 @@ input:hover {
     transition: 0.5s;
 }
 .div1 {
-    width:90%;
-    display: flex;
-    justify-content: center;
+    overflow: hidden;
+    width:80%;
+margin: auto;
 }
 .div2 {
     border: black solid 2px;
