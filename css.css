@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+   text-align: center;
+    background-color:blue ;
+}
+
+
+input {
+    margin-left: 10%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    background-color: blue;
+    border: solid 2px black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+input:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+.div1 {
+    width:90%;
+    display: flex;
+    justify-content: center;
+}
+.div2 {
+    border: black solid 2px;
+  border-radius: 15px;  
+    margin: auto;
+    background-color:blue;
+width: 90%;
+height:160px;
+overflow: hidden;
+}
+
+img {
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    width: 150px;
+    height: 150px;
+    margin-left:100px;
+}
