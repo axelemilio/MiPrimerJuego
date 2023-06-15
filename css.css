@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body {
-width:1348px;
+max-width:1348px;
 position: relative;
 margin: auto;
 }
