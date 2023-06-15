@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+width:1348px;
+position: relative;
+margin: auto;
+}
+.puntos {
+position: fixed;
+left: 5px;
+top: 5px;
+background-color: aqua;
+width:120px;
+height:20px;
+border-radius:15px;
+text-align: center;
+z-index: 1;
+}
+.puntos1 {
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    background-color: aqua;
+    width:120px;
+    height:20px;
+    border-radius:15px;
+    text-align: center;
+    z-index: 1;
+    }
+h1 {
+    width: 100%;
+   text-align: center;
+    background-color:blue ;
+}
+
+
+
+input {
+position: absolute;
+    margin-top:5px;
+    margin-bottom: 5px;
+    width:20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    background-color: blue;
+    border: solid 2px black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.piee {
+    left: 2%;
+}
+.paa {
+    left: 40%;
+}
+.tii {
+    left: 80%;
+}
+input:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+.div1 {
+
+    width:90%;
+    height:150px;
+    position: relative;
+    margin: auto;
+ text-align: center;
+}
+.div2 {
+    border: black solid 2px;
+  border-radius: 15px;  
+    margin: auto;
+    text-align:center;
+    background-color:rgb(255, 255, 255);
+width: 90%;
+height:160px;
+overflow: hidden;
+}
+
+img {
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    width: 150px;
+    height: 150px;
+    margin-left:100px;
+}
+
+.cuadro {
+    position: relative;
+    background-color: red;
+    height:300px;
+    width:300px;
+    margin-left:25%;
+    margin-top: 10px;
+    margin-bottom:10px;
+float: left;
+}
+
+.circulo {
+    height:30px;
+    width:30px;
+    background-color: blue;
+    border-radius: 100%;
+ bottom:4px;
+  right:4px;
+
+}
+.cuadro1 {
+ 
+   position: relative;
+    background-color: red;
+    height:300px;
+    width:300px;
+    margin-left:50%;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+
+.menu {
+    position: absolute;
+    overflow: hidden;
+    height:20px;
+    width: 90px;
+    transition: 0.5s;
+   left: 40%;
+   top:2%;
+
+}
+.menu li {
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu li:hover {
+    background-color: rgb(71, 179, 230);
+    transition: 0.5s;
+}
+.menu:hover{
+    height:200px;
+    transition: 0.5s;
+}
